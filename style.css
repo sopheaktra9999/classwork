@@ -1,0 +1,205 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.container{
+    width: 1200px;
+    height: auto;
+    margin:50px auto;
+
+}
+.container .box{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.card .card2{
+    width: 50%;
+    height: 100%;
+}
+.card2{
+    margin-left: 2%;
+}
+.box1{
+    width: 100%;
+    display: flex;
+}
+
+.child1{
+    width: 50%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.child1 label{
+    font-size: 18px;
+
+}
+.child1 input{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 0 5px;
+    margin-top: 15px;
+    border: 0.5px solid grey;
+}
+.child1 input::placeholder{
+    font-size: 15px;
+}
+.child2 {
+    margin-bottom: 40px;
+}
+.child2 label{
+    font-size: 18px;
+}
+.child2 select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+.box3{
+    margin-bottom: 40px;
+}
+.child3 label{
+    font-size: 18px;
+}
+.child3 textarea{
+    padding: 15px;
+    width: 100%;
+    height: 155px;
+    margin-top: 10px;
+    border: 0.5px solid grey;
+}
+.box4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+.child4{
+    width: 290px;
+    margin-right: 10px;
+}
+.child4 label{
+    font-size: 18px;
+}
+.child4 select, input{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: 0.5px solid grey;
+}
+.zipCode{
+    width: 100px;
+}
+.zipCode label{
+    font-size: 18px;
+
+}
+.zipCode input{
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0.5px solid grey;
+}
+.box5{
+    width: 100%;
+    height: 20px;
+
+}
+.box5 input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 0.5px solid grey;
+}
+.box5 label{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.box6{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.child6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box6 label{
+    font-size: 18px;
+}
+.box6 input{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.box7, .box8, .box9{
+    margin-bottom: 40px;
+}
+.box7 label{
+    font-size: 18px;
+}
+.box7 input{
+    width: 40%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.box8 label{
+    font-size: 18px;
+}
+.box8 input{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+}
+.box9{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box9 .childC{
+    width: 95%;
+}
+.box9 .childC img{
+    width: 100%;
+    object-fit: cover;
+}
+.box10 form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box10 label{
+    font-size: 18px;
+}
+.box10 .child7{
+    width: 20%;    
+}
+.box10 .child8{
+    width: 28%;
+}
+.box10 .child9{
+    width: 45%; 
+}
+.box10 input{
+    padding-left: 15px;
+}
+.box5 button {
+    width: 270px;
+    height: 45px;
+    margin-left: 50px;
+    background-color: darkcyan;
+    border: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+}
+
